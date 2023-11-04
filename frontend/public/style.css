@@ -1,0 +1,63 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; 
+  }
+  
+  
+  h1 {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  
+  form {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  
+  input[type="text"],
+  input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  button[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  
+  #inventoryList {
+    background-color: #fff;
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    text-align: center;
+  }
+  
+  
+  li {
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    background-color: #fff;
+  }
+  

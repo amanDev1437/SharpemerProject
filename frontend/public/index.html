@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <title>Inventory Management</title>
+</head>
+<body>
+  <h1>Inventory Management</h1>
+  <div>
+    <h2>Add Item</h2>
+    <form id="addItemForm">
+        <input type="text" id="itemName" placeholder="Item Name" required>
+        <input type="text" id="itemDescription" placeholder="Description">
+        <input type="number" id="itemQuantity" placeholder="Quantity" required>
+        <input type="number" id="itemPrice" placeholder="Price" required>
+        <button type="button" onclick="addItem()">Add Item</button> 
+        
+      </form>
+
+  </div>
+  <div>
+    <h2>Inventory List</h2>
+    <div id="inventoryList">
+     
+    </div>
+    
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
